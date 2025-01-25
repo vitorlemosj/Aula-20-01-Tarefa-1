@@ -41,7 +41,7 @@ pico_set_program_name(matriz_led "matriz_led")
 pico_set_program_version(matriz_led "0.1")
 
 # Modify the below lines to enable/disable output over UART/USB
-pico_enable_stdio_uart(matriz_led 0)
+pico_enable_stdio_uart(matriz_led 1)
 pico_enable_stdio_usb(matriz_led 1)
 
 pico_generate_pio_header(matriz_led ${CMAKE_CURRENT_LIST_DIR}/matriz_led.pio)
