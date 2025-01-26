@@ -9,17 +9,17 @@
 #include "features/funcoes.c"
 #include "features/New Piskel.c"
 
-// Para simular na placa troque o LED_PIN e adicione o scanf no loop da main
+// Para simular na placa troque o scanf no loop da main
 
 // Definição do número de LEDs e pino.
 #define LED_COUNT 25
-#define LED_PIN 10 // 7 para a placa, 10 para o wokwi
+#define LED_PIN 7 
 
 char tecla;
 
 // teclado
 const uint column[4] = {5, 4, 3, 2};
-const uint line[4] = {9, 8, 7, 6};
+const uint line[4] = {10, 9, 8, 6};
 
 int main()
 {
@@ -37,7 +37,7 @@ int main()
 
     while (true)
     {
-        tecla = pico_keypad_get_key();
+        tecla = pico_keypad_get_key(); // Comente esta linha para simular na placa
         // scanf("%c", &tecla); // para simular na placa
         if (tecla)
         {
@@ -72,8 +72,8 @@ int main()
                 break;
 
             case '6':
-                //Animação
-                // OBS: A função convert troca as cores durante a conversão 16^8 >> 2^8 do arquivo exportado do https://www.piskelapp.com/
+                // Animação
+                //  OBS: A função convert troca as cores durante a conversão 16^8 >> 2^8 do arquivo exportado do https://www.piskelapp.com/
                 for (int i = 0; i < 10; i++)
                 {
                     convert(raining[i], 1e3, 0.4);
@@ -127,7 +127,8 @@ int main()
                 break;
 
             case '#':
-
+                printf("Liga os LEDs na cor Branca em 20%%\n");
+                desenhaMatriz(branco, 2000, 0.2);
                 break;
 
             case '*':
