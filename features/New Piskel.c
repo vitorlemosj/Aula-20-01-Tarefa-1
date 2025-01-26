@@ -16,7 +16,7 @@ void convertToRGB(int argb, int rgb[3])
     rgb[1] = (argb >> 8) & 0xFF;  // Green
 }
 
-void convert(int matrix[25], int ttempo_ms)
+void convert(int matrix[25], int ttempo_ms, float intensidade)
 {
     int posi = 0;
 
@@ -38,5 +38,5 @@ void convert(int matrix[25], int ttempo_ms)
         rgb_matrix[row][col][2] = rgb[2]; // Blue
 
     }
-   desenhaMatriz(rgb_matrix, 500, 0.8);
+   desenhaMatriz(rgb_matrix, 500, intensidade);
 }

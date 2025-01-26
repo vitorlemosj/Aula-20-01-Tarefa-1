@@ -62,14 +62,21 @@ int main()
                 break;
 
             case '5':
-
+                // Animação Arthur
+                desenhaMatriz(frame1, 2000, 0.5);
+                desenhaMatriz(frame2, 2000, 0.5);
+                desenhaMatriz(frame3, 2000, 0.5);
+                desenhaMatriz(frame4, 2000, 0.5);
+                desenhaMatriz(frame5, 2000, 0.5);
+                desenhaMatriz(desliga, 2000, 0.5);
                 break;
 
             case '6':
-            //OBS: A função convert troca as cores durante a conversão
+                //Animação
+                // OBS: A função convert troca as cores durante a conversão 16^8 >> 2^8 do arquivo exportado do https://www.piskelapp.com/
                 for (int i = 0; i < 10; i++)
                 {
-                 convert(raining[i], 1e3);
+                    convert(raining[i], 1e3, 0.4);
                 }
                 desenhaMatriz(desliga, 0, 0.8);
                 break;
@@ -81,7 +88,7 @@ int main()
                 break;
 
             case '8':
-
+                // Animação Silas Kenji
                 desenhaMatriz(matrizK, 2000, 0.8);
                 desenhaMatriz(matrizE, 2000, 0.8);
                 desenhaMatriz(matrizN, 2000, 0.8);
@@ -97,22 +104,26 @@ int main()
 
             case 'A':
             case 'a':
-
+                printf("Desliga os LEDs\n");
+                desenhaMatriz(desliga, 0, 0.8);
                 break;
 
             case 'B':
             case 'b':
-
+                printf("Liga os LEDs na cor Azul em 100%%\n");
+                desenhaMatriz(azul, 2000, 1.0);
                 break;
 
             case 'C':
             case 'c':
-
+                printf("Liga os LEDs na cor Vermelha em 80%%\n");
+                desenhaMatriz(vermelho, 2000, 0.8);
                 break;
 
             case 'D':
             case 'd':
-
+                printf("Liga os LEDs na cor Verde em 50%%\n");
+                desenhaMatriz(verde, 2000, 0.5);
                 break;
 
             case '#':

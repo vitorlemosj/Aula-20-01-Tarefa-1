@@ -103,7 +103,7 @@ void desenhaMatriz(int matriz[5][5][3], int tempo_ms, float intensidade)
     for (int coluna = 0; coluna < 5; coluna++)
     {
       int posicao = getIndex(linha, coluna);
-      npSetLED(posicao, (matriz[coluna][linha][0] * intensidade), (matriz[coluna][linha][1] * intensidade), (matriz[coluna][linha][2] * intensidade));
+      npSetLED(posicao, ((float)matriz[coluna][linha][0] * intensidade), ((float)matriz[coluna][linha][1] * intensidade), ((float)matriz[coluna][linha][2] * intensidade));
     }
   }
   npWrite();
