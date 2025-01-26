@@ -9,9 +9,13 @@
 #include "features/funcoes.c"
 #include "features/New Piskel.c"
 
+// Para simular na placa troque o LED_PIN e adicione o scanf no loop da main
+
 // Definição do número de LEDs e pino.
 #define LED_COUNT 25
-#define LED_PIN 10
+#define LED_PIN 10 // 7 para a placa, 10 para o wokwi
+
+char tecla;
 
 // teclado
 const uint column[4] = {5, 4, 3, 2};
@@ -29,11 +33,12 @@ int main()
 
     // Inicializa matriz de LEDs NeoPixel.
     npInit(LED_PIN);
-    npClear();
+    desenhaMatriz(desliga, 0, 0.8);
 
     while (true)
     {
-        char tecla = pico_keypad_get_key();
+        tecla = pico_keypad_get_key();
+        // scanf("%c", &tecla); // para simular na placa
         if (tecla)
         {
             printf("Tecla pressionada: %c\n", tecla);
@@ -91,18 +96,22 @@ int main()
                 break;
 
             case 'A':
+            case 'a':
 
                 break;
 
             case 'B':
+            case 'b':
 
                 break;
 
             case 'C':
+            case 'c':
 
                 break;
 
             case 'D':
+            case 'd':
 
                 break;
 
