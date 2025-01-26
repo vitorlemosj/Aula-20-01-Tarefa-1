@@ -7,6 +7,7 @@
 #define MATRIX_COLS 5
 #define MATRIX_DEPTH 3
 
+int rgb[3];
 // Função para converter valores ARGB (0xAARRGGBB) para RGB
 void convertToRGB(int argb, int rgb[3])
 {
@@ -17,7 +18,6 @@ void convertToRGB(int argb, int rgb[3])
 
 void convert(int matrix[25], int ttempo_ms)
 {
-    int cond = 0;
     int posi = 0;
 
     // Matriz 5x5x3 para armazenar os valores RGB
@@ -26,7 +26,7 @@ void convert(int matrix[25], int ttempo_ms)
     // Preencher a matriz RGB com a conversão dos valores ARGB
     for (int i = 0; i < MATRIX_ROWS * MATRIX_COLS; i++)
     {
-        int rgb[3];
+        
         convertToRGB(matrix[i], rgb);
 
         int row = i / MATRIX_COLS; // Cálculo da linha
@@ -36,21 +36,7 @@ void convert(int matrix[25], int ttempo_ms)
         rgb_matrix[row][col][0] = rgb[0]; // Red
         rgb_matrix[row][col][1] = rgb[1]; // Green
         rgb_matrix[row][col][2] = rgb[2]; // Blue
-        if (i % 5 == 0)
-        {
-            cond++;
-        }
-        if (cond % 2 == 0)
-        {
-            posi = i;
-        }
-        else
-        {
-            posi = cond * 10 + 4 - i;
-        }
-        npSetLED(posi, rgb_matrix[row][col][0], rgb_matrix[row][col][1], rgb_matrix[row][col][2]);
+
     }
-    npWrite();
-    sleep_ms(ttempo_ms);
-    npClear();
+   desenhaMatriz(rgb_matrix, 500, 0.8);
 }

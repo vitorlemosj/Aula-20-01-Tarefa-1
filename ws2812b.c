@@ -61,10 +61,10 @@ int main()
                 break;
 
             case '6':
-            //A função convert ainda n funciona como esperado
+            //OBS: A função convert troca as cores durante a conversão
                 for (int i = 0; i < 10; i++)
                 {
-                 convert(raining[i], 200);
+                 convert(raining[i], 1e3);
                 }
                 desenhaMatriz(desliga, 0, 0.8);
                 break;
