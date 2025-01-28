@@ -78,6 +78,7 @@ O projeto deve cumprir os seguintes requisitos:
 - **Tecla * (asterisco)**: Reinicia o Raspberry Pi Pico W para o modo de gravação.
 - **Tecla 1** a **Tecla 4**: .
 - **Tecla 2**: Inicia uma animação.
+- **Tecla 4**: Inicia uma animação.
 - **Tecla 5**: Inicia uma animação.
 - **Tecla 6**: Inicia uma animação com efeito de transição de cores ("Matrix Reload").
 - **Tecla 8**: Inicia uma animação.
@@ -156,6 +157,12 @@ Alguns testes foram realizados para garantir o funcionamento correto do projeto:
         <img src="https://avatars.githubusercontent.com/u/143664389?v=4" width="100px;" alt=""/>
       </a>
       <br /><sub><b> Danilo Silveira </b></sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/vitorlemosj" target="_blank">
+        <img src="https://avatars.githubusercontent.com/u/143664389?v=4" width="100px;" alt=""/>
+      </a>
+      <br /><sub><b> João Vitor Lemos </b></sub>
     </td>
   </tr>
 </table>
