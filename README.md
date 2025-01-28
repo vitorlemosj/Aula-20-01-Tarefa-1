@@ -132,6 +132,12 @@ O projeto deve cumprir os seguintes requisitos:
       </a>
       <br /><sub><b> Arthur Kleber </b></sub>
     </td>
+    <td align="center">
+      <a href="https://github.com/codedanilo" target="_blank">
+        <img src="https://avatars.githubusercontent.com/u/191928515?v=4" width="100px;" alt=""/>
+      </a>
+      <br /><sub><b> Danilo Silveira </b></sub>
+    </td>
   </tr>
 </table>
 
