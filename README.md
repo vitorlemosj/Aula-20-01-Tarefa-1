@@ -72,16 +72,15 @@ O projeto deve cumprir os seguintes requisitos:
 - **Tecla D**: Liga todos os LEDs na cor verde com 50% de luminosidade.
 - **Tecla #**: Liga todos os LEDs na cor branca com 20% de luminosidade.
 - **Tecla * (asterisco)**: Reinicia o Raspberry Pi Pico W para o modo de gravação.
-- **Tecla 1** a **Tecla 4**: Ações específicas para animações adicionais (não detalhadas no código).
-- **Tecla 2**: Inicia animação personalizada (ex: Animação "Naila").
-- **Tecla 5**: Inicia animação "Arthur" com 5 frames diferentes.
-- **Tecla 6**: Inicia animação "Leonardo" com efeito de transição de cores ("Matrix Reload").
-- **Tecla 8**: Inicia animação "Kenji" com 5 frames personalizados.
+- **Tecla 1** a **Tecla 4**: .
+- **Tecla 2**: Inicia uma animação.
+- **Tecla 5**: Inicia uma animação.
+- **Tecla 6**: Inicia uma animação com efeito de transição de cores ("Matrix Reload").
+- **Tecla 8**: Inicia uma animação.
 - **Tecla 9**: Ação para animação não detalhada no código.
 - **Teclado Matricial 4x4**: Captura as teclas pressionadas e executa as ações correspondentes.
 - **Matriz de LEDs 5x5**: Controla os LEDs de acordo com a tecla pressionada.
-- **Estrutura do código**: Modularização com arquivos como `keyPad4x4.c`, `PIO.c`, `desenho.c` para organização.
-- **Menu Interativo**: Exibe instruções e opções de animação e controle de LEDs no terminal.
+- **Menu no Terminal**: Exibe instruções e opções de animação e controle de LEDs no terminal.
 
 ## Como Executar
 
