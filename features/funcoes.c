@@ -27,13 +27,13 @@ void menu()
     printf("5 - Aperte * Modo de gravação\n");
     printf("6 - Aperte # para ligar os LEDs na cor Branca em 20%%\n");
     printf("7 - Aperte 1 ...\n");
-    printf("8 - Aperte 2 ...\n");
+    printf("8 - Aperte 2 para Animação de Naila\n");
     printf("9 - Aperte 3 ...\n");
     printf("10 - Aperte 4 ...\n");
-    printf("11 - Aperte 5 para Animação ...\n");
-    printf("12 - Aperte 6 para Animação Matrix Reload (poor quality)\n");
+    printf("11 - Aperte 5 para Animação de Arthur\n");
+    printf("12 - Aperte 6 para Animação de Leonardo: Matrix Reload (poor quality)\n");
     printf("13 - Aperte 7 ...\n");
-    printf("14 - Aperte 8 para Animação ...\n");
+    printf("14 - Aperte 8 para Animação de Kenji\n");
     printf("15 - Aperte 5 ...\n");
     printf("Obs: É necessário segurar a brevemente para o comando ser registrado\n");
 }

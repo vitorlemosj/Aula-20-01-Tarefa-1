@@ -62,12 +62,11 @@ int main()
 
             case '5':
                 // Animação Arthur
-                desenhaMatriz(frame1, 2000, 0.5);
-                desenhaMatriz(frame2, 2000, 0.5);
-                desenhaMatriz(frame3, 2000, 0.5);
-                desenhaMatriz(frame4, 2000, 0.5);
-                desenhaMatriz(frame5, 2000, 0.5);
-                desenhaMatriz(desliga, 2000, 0.5);
+                for (int i = 0; i < 5; i++)
+                {
+                    desenhaMatriz(frame1[i], 2000, 0.5);
+                }
+                desenhaMatriz(desliga, 0, 0.8);
                 break;
 
             case '6':
@@ -88,12 +87,10 @@ int main()
 
             case '8':
                 // Animação Silas Kenji
-                desenhaMatriz(matrizK, 2000, 0.8);
-                desenhaMatriz(matrizE, 2000, 0.8);
-                desenhaMatriz(matrizN, 2000, 0.8);
-                desenhaMatriz(matrizJ, 2000, 0.8);
-                desenhaMatriz(matrizI, 2000, 0.8);
-                desenhaMatriz(desliga, 2000, 0.8);
+               for (int i = 0; i < 5; i++)
+                {
+                    desenhaMatriz(matrizKen[i], 2000, 0.8);
+                }
 
                 break;
 
