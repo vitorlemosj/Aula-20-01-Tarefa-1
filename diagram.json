@@ -145,14 +145,14 @@
     [ "pico:GP2", "keypad1:C4", "limegreen", [ "h0" ] ],
     [ "pico:GP3", "keypad1:C3", "limegreen", [ "h0" ] ],
     [ "pico:GP4", "keypad1:C2", "limegreen", [ "h0" ] ],
-    [ "pico:GP6", "keypad1:R4", "gray", [ "h0" ] ],
-    [ "pico:GP7", "keypad1:R3", "gray", [ "h0" ] ],
-    [ "pico:GP8", "keypad1:R2", "gray", [ "h0" ] ],
-    [ "keypad1:R1", "pico:GP9", "gray", [ "v0" ] ],
     [ "keypad1:C1", "pico:GP5", "limegreen", [ "v0" ] ],
     [ "pico:GND.4", "bz1:1", "black", [ "h0" ] ],
     [ "pico:GP13", "bz1:2", "red", [ "h0" ] ],
-    [ "rgb1:DIN", "pico:GP10", "green", [ "h114.4", "v105.6" ] ]
+    [ "pico:GP7", "rgb1:DIN", "red", [ "h-364.8", "v-57.6" ] ],
+    [ "pico:GP6", "keypad1:R4", "gray", [ "h0" ] ],
+    [ "pico:GP8", "keypad1:R3", "gray", [ "h0" ] ],
+    [ "pico:GP9", "keypad1:R2", "gray", [ "h0" ] ],
+    [ "pico:GP10", "keypad1:R1", "gray", [ "h0" ] ]
   ],
   "dependencies": {}
 }

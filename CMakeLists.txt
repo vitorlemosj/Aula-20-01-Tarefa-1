@@ -28,41 +28,42 @@ set(PICO_BOARD pico_w CACHE STRING "Board type")
 # Pull in Raspberry Pi Pico SDK (must be before project)
 include(pico_sdk_import.cmake)
 
-project(matriz_led C CXX ASM)
+project(ws2812b C CXX ASM)
 
 # Initialise the Raspberry Pi Pico SDK
 pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(matriz_led matriz_led.c )
+add_executable(ws2812b ws2812b.c )
 
-pico_set_program_name(matriz_led "matriz_led")
-pico_set_program_version(matriz_led "0.1")
+pico_set_program_name(ws2812b "ws2812b")
+pico_set_program_version(ws2812b "0.1")
 
 # Modify the below lines to enable/disable output over UART/USB
-pico_enable_stdio_uart(matriz_led 1)
-pico_enable_stdio_usb(matriz_led 1)
+pico_enable_stdio_uart(ws2812b 1)
+pico_enable_stdio_usb(ws2812b 1)
 
-pico_generate_pio_header(matriz_led ${CMAKE_CURRENT_LIST_DIR}/matriz_led.pio)
+#Converte o .pio para .h
+pico_generate_pio_header(ws2812b ${CMAKE_CURRENT_LIST_DIR}/ws2818b.pio)
 
-target_sources(matriz_led PRIVATE matriz_led.c)
+target_sources(ws2812b PRIVATE ws2812b.c)
 
 # Add the standard library to the build
-target_link_libraries(matriz_led PRIVATE
+target_link_libraries(ws2812b
         pico_stdlib
-        hardware_pio
-        pico_bootrom)
+        pico_bootrom
+        hardware_pio)
 
 # Add the standard include files to the build
-target_include_directories(matriz_led PRIVATE
+target_include_directories(ws2812b PRIVATE
   ${CMAKE_CURRENT_LIST_DIR}
 )
 
 # Add any user requested libraries
-target_link_libraries(matriz_led 
+target_link_libraries(ws2812b 
         
         )
 
-pico_add_extra_outputs(matriz_led)
+pico_add_extra_outputs(ws2812b)
 
