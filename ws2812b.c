@@ -13,7 +13,7 @@
 
 // Definição do número de LEDs e pino.
 #define LED_COUNT 25
-#define LED_PIN 7 
+#define LED_PIN 7
 
 char tecla;
 
@@ -41,7 +41,6 @@ int main()
         // scanf("%c", &tecla); // para simular na placa
         if (tecla)
         {
-            printf("Tecla pressionada: %c\n", tecla);
 
             switch (tecla)
             {
@@ -74,9 +73,9 @@ int main()
             case '6':
                 // Animação
                 //  OBS: A função convert troca as cores durante a conversão 16^8 >> 2^8 do arquivo exportado do https://www.piskelapp.com/
-                for (int i = 0; i < 10; i++)
+                for (int i = 0; i < 50; i++)
                 {
-                    convert(raining[i], 1e3, 0.4);
+                    convert(raining[i % 10], 1e3, 0.4);
                 }
                 desenhaMatriz(desliga, 0, 0.8);
                 break;

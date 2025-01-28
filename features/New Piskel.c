@@ -16,7 +16,7 @@ void convertToRGB(int argb, int rgb[3])
     rgb[1] = (argb >> 8) & 0xFF;  // Green
 }
 
-void convert(int matrix[25], int ttempo_ms, float intensidade)
+void convert(uint32_t matrix[25], int ttempo_ms, float intensidade)
 {
     int posi = 0;
 

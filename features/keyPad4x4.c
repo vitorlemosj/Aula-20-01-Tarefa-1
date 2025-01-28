@@ -62,11 +62,11 @@ char pico_keypad_get_key(void)
 
     cols = gpio_get_all();
     cols = cols & all_columns_mask;
-    imprimir_binario_teclado(cols);
+    //imprimir_binario_teclado(cols); Para debug do código
 
     if (cols == 0x0)
     {
-        printf("\n");
+        // printf("\n"); Para debug do código
         return 0;
     }
 

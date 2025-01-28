@@ -72,7 +72,7 @@ int desliga[5][5][3] = {
 
 // Coloque aqui um código hexadecimal gerado no site: https://www.piskelapp.com/
 // Desenho Leonardo
-int raining[10][25] = {
+uint32_t raining[10][25] = {
     {0x00010100, 0x00010101, 0x00010000, 0x00000100, 0x00010000,
      0xffb9e5be, 0x00010100, 0xffb8e4bf, 0x00000100, 0xffb8e4be,
      0xffa1e7a8, 0x00000000, 0xff30c343, 0x00010000, 0xffa1e7a8,
