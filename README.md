@@ -58,6 +58,7 @@ O projeto deve cumprir os seguintes requisitos:
       <img width="800px" src="https://github.com/Kenjibercysec/Aula-20-01-Tarefa-1/blob/main/src/image.png" />
       <p>Fig 1. Projeto no simulador .</p>
    </div>
+   
 ## Estrutura do Projeto
 
 - **ws2812b.c**: Código responsável pela configuração e controle da matriz de LEDs.
@@ -108,12 +109,12 @@ O projeto deve cumprir os seguintes requisitos:
 ## Testes Realizados
 Alguns testes foram realizados para garantir o funcionamento correto do projeto:
 
-1. **Tecla B, C e D **  
+1. **Tecla B, C e D.**  
    <div align="center">
       <img width="800px" src="https://github.com/Kenjibercysec/Aula-20-01-Tarefa-1/blob/main/src/tecla-b-c-d.gif" />
       <p>Fig 2. Tecla B, C e D .</p>
    </div>
-2. **Tecla A e # **  
+2. **Tecla A e #.**  
    <div align="center">
       <img width="800px" src="https://github.com/Kenjibercysec/Aula-20-01-Tarefa-1/blob/main/src/tecla-A-%23.gif" />
       <p>Fig 3. Tecla A e # .</p>
