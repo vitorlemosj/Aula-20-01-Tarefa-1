@@ -29,7 +29,7 @@ void menu()
     printf("7 - Aperte 1 ...\n");
     printf("8 - Aperte 2 para Animação de Naila\n");
     printf("9 - Aperte 3 ...\n");
-    printf("10 - Aperte 4 ...\n");
+    printf("10 - Aperte 4 para Animação de João Vitor\n");
     printf("11 - Aperte 5 para Animação de Arthur\n");
     printf("12 - Aperte 6 para Animação de Leonardo: Matrix Reload (poor quality)\n");
     printf("13 - Aperte 7 ...\n");
