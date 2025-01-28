@@ -54,7 +54,10 @@ O projeto deve cumprir os seguintes requisitos:
 3. **Matriz de LEDs WS2812 (5x5)**: Exibição de animações.
 4. **VS Code**: Ambiente de desenvolvimento para código em linguagem C.
 5. **Simulador Wokwi**: Para simulação do circuito.
-
+  <div align="center">
+      <img width="800px" src="https://github.com/Kenjibercysec/Aula-20-01-Tarefa-1/blob/main/src/image.png" />
+      <p>Fig 1. Projeto no simulador .</p>
+   </div>
 ## Estrutura do Projeto
 
 - **ws2812b.c**: Código responsável pela configuração e controle da matriz de LEDs.
@@ -101,6 +104,21 @@ O projeto deve cumprir os seguintes requisitos:
    ```
 2. Abrir no VS Code: Abra a pasta clonada no VS Code e no terminal do VS Code, vá até a pasta do projeto.
 4. Compilar o código.
+
+## Testes Realizados
+Alguns testes foram realizados para garantir o funcionamento correto do projeto:
+
+1. **Tecla B, C e D **  
+   <div align="center">
+      <img width="800px" src="https://github.com/Kenjibercysec/Aula-20-01-Tarefa-1/blob/main/src/tecla-b-c-d.gif" />
+      <p>Fig 2. Tecla B, C e D .</p>
+   </div>
+2. **Tecla A e # **  
+   <div align="center">
+      <img width="800px" src="https://github.com/Kenjibercysec/Aula-20-01-Tarefa-1/blob/main/src/tecla-A-%23.gif" />
+      <p>Fig 2. Tecla A e # .</p>
+   </div>
+
    
 ## Vídeo Demonstração
 
