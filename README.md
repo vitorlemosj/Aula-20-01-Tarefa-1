@@ -64,3 +64,15 @@ O projeto deve cumprir os seguintes requisitos:
 - **desenho.c**: Funções para definição das animações a serem exibidas na matriz de LEDs.
 - **funcoes.c**: Funções auxiliares para controle do sistema.
 - **New Piskel.c**: Arquivo com animações exportadas do Piskel.
+
+## Autores
+
+<table>
+  <tr>
+    <td align="center"><img src="https://avatars.githubusercontent.com/u/98486996?v=4" width="100px;" alt=""/><br /><sub><b> Naila Suele </b></sub></a></td>
+    <td align="center"><img src="https://avatars.githubusercontent.com/u/139288116?v=4" width="100px;" alt=""/><br /><sub><b> Leonardo Romão </b></sub></a></td>
+    <td align="center"><img src="https://avatars.githubusercontent.com/u/105324711?v=4" width="100px;" alt=""/><br /><sub><b> Silas Kenji </b></sub></a></td>
+    <td align="center"><img src="https://avatars.githubusercontent.com/u/191928515?v=4" width="100px;" alt=""/><br /><sub><b> Arthur Kleber </b></sub></a></td>
+  </tr>
+</table>
+
