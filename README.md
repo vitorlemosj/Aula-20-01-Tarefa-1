@@ -116,7 +116,7 @@ Alguns testes foram realizados para garantir o funcionamento correto do projeto:
 2. **Tecla A e # **  
    <div align="center">
       <img width="800px" src="https://github.com/Kenjibercysec/Aula-20-01-Tarefa-1/blob/main/src/tecla-A-%23.gif" />
-      <p>Fig 2. Tecla A e # .</p>
+      <p>Fig 3. Tecla A e # .</p>
    </div>
 
    
@@ -152,7 +152,7 @@ Alguns testes foram realizados para garantir o funcionamento correto do projeto:
     </td>
     <td align="center">
       <a href="https://github.com/codedanilo" target="_blank">
-        <img src="https://avatars.githubusercontent.com/u/191928515?v=4" width="100px;" alt=""/>
+        <img src="https://avatars.githubusercontent.com/u/143664389?v=4" width="100px;" alt=""/>
       </a>
       <br /><sub><b> Danilo Silveira </b></sub>
     </td>
