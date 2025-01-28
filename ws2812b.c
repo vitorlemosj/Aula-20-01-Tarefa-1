@@ -82,7 +82,12 @@ int main()
                 break;
 
             case '7':
-
+                // Animação Gustavo Netto
+               for (int i = 0; i < 4; i++)
+                {
+                    desenhaMatriz(matrizNet[i], 2000, 0.8);
+                }
+                
                 break;
 
             case '8':
