@@ -49,9 +49,9 @@ int main()
                 break;
 
             case '2':
-
+                printf("Iniciando animação...\n");
+                animaNome();
                 break;
-
             case '3':
 
                 break;
